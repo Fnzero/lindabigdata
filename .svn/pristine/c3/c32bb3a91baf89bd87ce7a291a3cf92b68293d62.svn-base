@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Learn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/echarts.min.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=W3tW0XoAL9qoGONSy0RL0MN0lIgdcVMi"></script>
+	<!-- Custom Theme files -->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/jquery.countdown.css" />
+
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+	<!----font-Awesome----->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!----font-Awesome----->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>实验室风貌</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
+	<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+	<style type="text/css">
+		#gallery{
+			margin: 0 auto;
+		}
+	</style>
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+	<script>
+		$(document).ready(function(){
+			$(".dropdown").hover(
+					function() {
+						$('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+						$(this).toggleClass('open');
+					},
+					function() {
+						$('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+						$(this).toggleClass('open');
+					}
+			);
+		});
+	</script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container">
+		<div class="navbar-header" style="display:table;">
+            <span style="display:table-cell;vertical-align:middle;">
+                <img src="images/nefu_3.gif" alt="" style="width: 50px;height: 50px;float: left;">
+            </span>
+			<a class="navbar-brand" href="index.html">东北林业大学大数据实验室</a>
+		</div>
+		<!--/.navbar-header-->
+		<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+			<ul class="nav navbar-nav">
+				<li class="dropdown">
+					<a href="login.html"><i class="fa fa-user"></i><span>登录</span></a>
+				</li>
+			</ul>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!--/.navbar-collapse-->
+</nav>
+<nav class="navbar nav_bottom" role="navigation">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header nav_2">
+			<a href="login.html">登录</a>
+			<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"></a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+			<ul class="nav navbar-nav nav_1">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="about.html">实验室概况</a></li>
+				<li><a href="yanjiuduiwu.html">研究队伍</a></li>
+				<li><a href="shiyanshi.html">研究室</a></li>
+				<li><a href="science.html">学术活动</a></li>
+				<li><a href="keyanchengguo.html">科研成果</a></li>
+				<li><a href="rencaipeiyang.html">人才培养</a></li>
+				<li><a href="biyeshengquxiang.html">毕业生去向</a></li>
+				<li><a href="download.html">资源下载</a></li>
+				<li class="last"><a href="rules.html">管理条例</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div>
+</nav>
+	<div class="container">
+		<div class="htmleaf-container">
+
+
+
+			<div id="gallery" style="display:none;">
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Lemon Slice"
+						 src="images/thumbs/tile1.jpg"
+						 data-image="images/big/tile1.jpg"
+						 data-description="This is a Lemon Slice"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Peppers"
+						 src="images/thumbs/tile2.jpg"
+						 data-image="images/big/tile2.jpg"
+						 data-description="Those are peppers"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Keys"
+						 src="images/thumbs/tile3.jpg"
+						 data-image="images/big/tile3.jpg"
+						 data-description="Those are keys"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Friuts in cup"
+						 src="images/thumbs/tile4.jpg"
+						 data-image="images/big/tile4.jpg"
+						 data-description="Those are friuts in a cup"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Yellow Flowers"
+						 src="images/thumbs/tile5.jpg"
+						 data-image="images/big/tile5.jpg"
+						 data-description="Those are yellow flowers"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Butterfly"
+						 src="images/thumbs/tile6.jpg"
+						 data-image="images/big/tile6.jpg"
+						 data-description="This is butterfly"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Boat"
+						 src="images/thumbs/tile7.jpg"
+						 data-image="images/big/tile7.jpg"
+						 data-description="This is a boat"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Woman"
+						 src="images/thumbs/tile8.jpg"
+						 data-image="images/big/tile8.jpg"
+						 data-description="This is a woman"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Cup Of Coffee"
+						 src="images/thumbs/tile9.jpg"
+						 data-image="images/big/tile9.jpg"
+						 data-description="This is cup of coffee"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Iphone Back"
+						 src="images/thumbs/tile10.jpg"
+						 data-image="images/big/tile10.jpg"
+						 data-description="This is iphone back"
+						 style="display:none">
+				</a>
+				<a href="http://www.htmleaf.com/">
+					<img alt="Lemon Slice"
+						 src="images/thumbs/tile1.jpg"
+						 data-image="images/big/tile1.jpg"
+						 data-description="This is a Lemon Slice"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Peppers"
+						 src="images/thumbs/tile2.jpg"
+						 data-image="images/big/tile2.jpg"
+						 data-description="Those are peppers"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Keys"
+						 src="images/thumbs/tile3.jpg"
+						 data-image="images/big/tile3.jpg"
+						 data-description="Those are keys"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Friuts in cup"
+						 src="images/thumbs/tile4.jpg"
+						 data-image="images/big/tile4.jpg"
+						 data-description="Those are friuts in a cup"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Yellow Flowers"
+						 src="images/thumbs/tile5.jpg"
+						 data-image="images/big/tile5.jpg"
+						 data-description="Those are yellow flowers"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Butterfly"
+						 src="images/thumbs/tile6.jpg"
+						 data-image="images/big/tile6.jpg"
+						 data-description="This is butterfly"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Boat"
+						 src="images/thumbs/tile7.jpg"
+						 data-image="images/big/tile7.jpg"
+						 data-description="This is a boat"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Woman"
+						 src="images/thumbs/tile8.jpg"
+						 data-image="images/big/tile8.jpg"
+						 data-description="This is a woman"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Cup Of Coffee"
+						 src="images/thumbs/tile9.jpg"
+						 data-image="images/big/tile9.jpg"
+						 data-description="This is cup of coffee"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Iphone Back"
+						 src="images/thumbs/tile10.jpg"
+						 data-image="images/big/tile10.jpg"
+						 data-description="This is iphone back"
+						 style="display:none">
+				</a>
+				<a href="http://www.htmleaf.com/">
+					<img alt="Lemon Slice"
+						 src="images/thumbs/tile1.jpg"
+						 data-image="images/big/tile1.jpg"
+						 data-description="This is a Lemon Slice"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Peppers"
+						 src="images/thumbs/tile2.jpg"
+						 data-image="images/big/tile2.jpg"
+						 data-description="Those are peppers"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Keys"
+						 src="images/thumbs/tile3.jpg"
+						 data-image="images/big/tile3.jpg"
+						 data-description="Those are keys"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Friuts in cup"
+						 src="images/thumbs/tile4.jpg"
+						 data-image="images/big/tile4.jpg"
+						 data-description="Those are friuts in a cup"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Yellow Flowers"
+						 src="images/thumbs/tile5.jpg"
+						 data-image="images/big/tile5.jpg"
+						 data-description="Those are yellow flowers"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Butterfly"
+						 src="images/thumbs/tile6.jpg"
+						 data-image="images/big/tile6.jpg"
+						 data-description="This is butterfly"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Boat"
+						 src="images/thumbs/tile7.jpg"
+						 data-image="images/big/tile7.jpg"
+						 data-description="This is a boat"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Woman"
+						 src="images/thumbs/tile8.jpg"
+						 data-image="images/big/tile8.jpg"
+						 data-description="This is a woman"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Cup Of Coffee"
+						 src="images/thumbs/tile9.jpg"
+						 data-image="images/big/tile9.jpg"
+						 data-description="This is cup of coffee"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Iphone Back"
+						 src="images/thumbs/tile10.jpg"
+						 data-image="images/big/tile10.jpg"
+						 data-description="This is iphone back"
+						 style="display:none">
+				</a>
+				<a href="http://www.htmleaf.com/">
+					<img alt="Lemon Slice"
+						 src="images/thumbs/tile1.jpg"
+						 data-image="images/big/tile1.jpg"
+						 data-description="This is a Lemon Slice"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Peppers"
+						 src="images/thumbs/tile2.jpg"
+						 data-image="images/big/tile2.jpg"
+						 data-description="Those are peppers"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Keys"
+						 src="images/thumbs/tile3.jpg"
+						 data-image="images/big/tile3.jpg"
+						 data-description="Those are keys"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Friuts in cup"
+						 src="images/thumbs/tile4.jpg"
+						 data-image="images/big/tile4.jpg"
+						 data-description="Those are friuts in a cup"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Yellow Flowers"
+						 src="images/thumbs/tile5.jpg"
+						 data-image="images/big/tile5.jpg"
+						 data-description="Those are yellow flowers"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Butterfly"
+						 src="images/thumbs/tile6.jpg"
+						 data-image="images/big/tile6.jpg"
+						 data-description="This is butterfly"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Boat"
+						 src="images/thumbs/tile7.jpg"
+						 data-image="images/big/tile7.jpg"
+						 data-description="This is a boat"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Woman"
+						 src="images/thumbs/tile8.jpg"
+						 data-image="images/big/tile8.jpg"
+						 data-description="This is a woman"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Cup Of Coffee"
+						 src="images/thumbs/tile9.jpg"
+						 data-image="images/big/tile9.jpg"
+						 data-description="This is cup of coffee"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Iphone Back"
+						 src="images/thumbs/tile10.jpg"
+						 data-image="images/big/tile10.jpg"
+						 data-description="This is iphone back"
+						 style="display:none">
+				</a>
+				<a href="http://www.htmleaf.com/">
+					<img alt="Lemon Slice"
+						 src="images/thumbs/tile1.jpg"
+						 data-image="images/big/tile1.jpg"
+						 data-description="This is a Lemon Slice"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Peppers"
+						 src="images/thumbs/tile2.jpg"
+						 data-image="images/big/tile2.jpg"
+						 data-description="Those are peppers"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Keys"
+						 src="images/thumbs/tile3.jpg"
+						 data-image="images/big/tile3.jpg"
+						 data-description="Those are keys"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Friuts in cup"
+						 src="images/thumbs/tile4.jpg"
+						 data-image="images/big/tile4.jpg"
+						 data-description="Those are friuts in a cup"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Yellow Flowers"
+						 src="images/thumbs/tile5.jpg"
+						 data-image="images/big/tile5.jpg"
+						 data-description="Those are yellow flowers"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Butterfly"
+						 src="images/thumbs/tile6.jpg"
+						 data-image="images/big/tile6.jpg"
+						 data-description="This is butterfly"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Boat"
+						 src="images/thumbs/tile7.jpg"
+						 data-image="images/big/tile7.jpg"
+						 data-description="This is a boat"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Woman"
+						 src="images/thumbs/tile8.jpg"
+						 data-image="images/big/tile8.jpg"
+						 data-description="This is a woman"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Cup Of Coffee"
+						 src="images/thumbs/tile9.jpg"
+						 data-image="images/big/tile9.jpg"
+						 data-description="This is cup of coffee"
+						 style="display:none">
+				</a>
+
+				<a href="http://www.htmleaf.com/">
+					<img alt="Iphone Back"
+						 src="images/thumbs/tile10.jpg"
+						 data-image="images/big/tile10.jpg"
+						 data-description="This is iphone back"
+						 style="display:none">
+				</a>
+
+
+			</div>
+		</div>
+	</div>
+	</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="col-md-3 grid_4">
+			<h3>关于我们</h3>
+			<p>"东北林业大学大数据实验室东北林业大学大数据实验室东北林业大学大数据实验室东北林业大学大数据实验室东北林业大学大数据实验室东北林业大学大数据实验室东北林业大学大数据实验室东北林业大学大数据实验室"</p>
+			<!-- <ul class="social-nav icons_2 clearfix">
+              <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a><>
+              <li><a href="#" class="facebook"> <i class="fa fa-facebook"></i></a><>
+              <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a><>
+           </ul> -->
+		</div>
+		<div class="col-md-3 grid_4">
+			<h3>常用导航</h3>
+			<ul class="footer_list">
+				<li><a href="#">-  东北林业大学官网 </a><>
+				<li><a href="#">-  东北林业大学教务处</a><>
+				<li><a href="#">-  东北林业大学信息学院</a><>
+				<li><a href="#">-  东北林业大学图书馆</a><>
+				<li><a href="#">-  东北林业大学成栋楼实验室</a><>
+			</ul>
+		</div>
+		<div class="col-md-3 grid_4">
+			<h3>联系我们</h3>
+			<address>
+				<strong>所在地址<>
+					<br>
+					<span>黑龙江省哈尔滨市东北林业大学</span>
+					<br><br>
+					<span>联系电话</span>
+					<br>
+					<abbr>Telephone : </abbr> 12345678912
+					<br>
+					<abbr>Email : </abbr> <a href="mailto@example.com">123456789@qq.com</a>
+			</address>
+		</div>
+		<div class="col-md-3 grid_4">
+			<h3>工作时间</h3>
+			<table class="table_working_hours">
+				<tbody>
+				<tr class="opened_1">
+					<td class="day_label">星期一</td>
+					<td class="day_value">9:30 am - 6.00 pm</td>
+				</tr>
+				<tr class="opened">
+					<td class="day_label">星期二</td>
+					<td class="day_value">9:30 am - 6.00 pm</td>
+				</tr>
+				<tr class="opened">
+					<td class="day_label">星期三</td>
+					<td class="day_value">9:30 am - 6.00 pm</td>
+				</tr>
+				<tr class="opened">
+					<td class="day_label">星期四</td>
+					<td class="day_value">9:30 am - 6.00 pm</td>
+				</tr>
+				<tr class="opened">
+					<td class="day_label">星期五</td>
+					<td class="day_value">9:30 am - 3.00 pm</td>
+				</tr>
+				<tr class="closed">
+					<td class="day_label">星期六</td>
+					<td class="day_value closed"><span>Closed</span></td>
+				</tr>
+				<tr class="closed">
+					<td class="day_label">星期日</td>
+					<td class="day_value closed"><span>Closed</span></td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="clearfix"> </div>
+		<div class="copy">
+			<p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://www.cssmoban.com/"></a></p>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+			jQuery("#gallery").unitegallery();
+
+		});
+		
+	</script>
+</body>
+</html>
